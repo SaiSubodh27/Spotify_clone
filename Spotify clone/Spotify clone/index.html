@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player UI</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="..."
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="brand">
+        <div class="img"></div>
+        <h2>PSP</h2>
+      </div>
+    </header>
+    <main>
+      <div class="player">
+        <div class="top">
+          <div class="song-list">
+            <ul>
+              <li>BELIVER</li>
+              <li>RUNWAY</li>
+              <li>JEENE LAGA HOON</li>
+              <li>INKEM INKEM</li>
+              <li>CHOOSI CHUDANGANE</li>
+              <li>VIKRAM TITLE TRACK</li>
+              <li>GEETHA GOVINDHAM</li>
+              <li>POWERHOUSE</li>
+              <li>MASTER RAID</li>
+              <li>NUVVUNTE NAA JATHAGA</li>
+              <li>THELISENEY</li>
+              <li>ARJUN REDDY</li>
+              <li>UNDIPORADHEY</li>
+              <li>ROWDY BABY</li>
+            </ul>
+          </div>
+          <div class="song-image">
+            kl
+            <!-- <img src="https://via.placeholder.com/200" alt="Song Art" /> -->
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="controls">
+        <div id="length" style="color: white">
+          <label for="radio">
+            --/--
+            <input
+              type="range"
+              name="song-length"
+              id="radio"
+              min="0"
+              max="100"
+            />
+            --/--
+          </label>
+        </div>
+        <div class="gif">
+          <video
+            id="video"
+            class="video"
+            src="play.mp4"
+            loop
+            autoplay
+            controls
+          ></video>
+        </div>
+        <div id="buttons">
+          <i
+            id="backward"
+            class="fa-solid fa-backward fa-2x"
+            style="color: aliceblue"
+          ></i>
+          <i
+            id="play"
+            class="fa-solid fa-play fa-2x"
+            style="color: aliceblue"
+          ></i>
+          <i
+            id="pause"
+            class="fa-solid fa-pause fa-2x"
+            style="color: aliceblue"
+          ></i>
+
+          <i
+            id="forward"
+            class="fa-solid fa-forward fa-2x"
+            style="color: aliceblue"
+          ></i>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
